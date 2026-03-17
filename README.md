@@ -6,5 +6,6 @@ semgrep-rules-manager --dir ./rules download
 ```
 
 ```sh
+# [semgrep-rules] # https://github.com/semgrep/semgrep-rules
 # [autogrep filtered-rules] # https://github.com/lambdasec/autogrep.git
 ```
