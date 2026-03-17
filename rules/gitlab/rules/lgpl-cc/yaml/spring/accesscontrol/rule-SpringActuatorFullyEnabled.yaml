@@ -1,0 +1,10 @@
+server:
+  port: 8081
+# ruleid: yaml_spring_rule-SpringActuatorFullyEnabled
+management:
+  endpoints:
+    web:
+      # ok: yaml_spring_rule-SpringActuatorFullyEnabled
+      base-path: /internal
+      exposure:
+        include: "*"
