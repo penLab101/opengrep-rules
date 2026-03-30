@@ -6,6 +6,7 @@ semgrep-rules-manager --dir ./rules download
 # git add ... # do backup first
 find rules/ \( -type f -name '.*.ymal' \) -exec rm -rf {} +
 find rules/ \( -type d -name '.github' \) -exec rm -rf {} +
+rm -r \rules\semgrep-rules\stats
 ```
 
 ```sh
